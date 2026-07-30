@@ -18,7 +18,7 @@ public class Main {
             exibirMenu();
             try {
                 opcao = scanner.nextInt();
-                scanner.nextInt();
+                scanner.nextLine();
 
                 switch (opcao){
                     case 1: adicionarLivro(); break;
